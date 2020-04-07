@@ -20,7 +20,6 @@ public class Todo {
 
     @Id
     private String id;
-
     private String title;
     private boolean status;
     private String comments;
