@@ -22,4 +22,13 @@ public class TodoService {
         return todoRepository.findAll();
 
     }
+
+    public void updateTodo(Todo todo){
+        todoRepository.save(todo);
+
+    }
+
+    public void deleteTodo(Todo todo) {
+        todoRepository.delete(todo);
+    }
 }

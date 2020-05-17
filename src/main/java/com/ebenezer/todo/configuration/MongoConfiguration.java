@@ -16,7 +16,7 @@ public class MongoConfiguration {
     @Bean
     public MongoDbFactory mongoDbFactory() {
         MongoClient mongoClient = new MongoClient("localhost", 27017);
-        return new SimpleMongoDbFactory(mongoClient, "todo");
+        return new SimpleMongoDbFactory(mongoClient, "dailyJournal");
 
     }
 
